@@ -28,33 +28,6 @@ function navCheck(entries) {
 const observer = new IntersectionObserver(navCheck, options);
 sections.forEach(section => observer.observe(section));
 
-function hideAllElements() {
-    $('#menu-home').css(
-        {
-            'color': '',
-            'background-color': ''
-        }
-    );
-    $('#menu-projects').css(
-        {
-            'color': '',
-            'background-color': ''
-        }
-    );
-    $('#menu-contact').css(
-        {
-            'color': '',
-            'background-color': ''
-        }
-    );
-    $('#menu-about').css(
-        {
-            'color': '',
-            'background-color': ''
-        }
-    );
-}
-
 (function translateToBulgarian() {
     $('#bulgarian-flag').on('click', () => {
         window.location.reload();
