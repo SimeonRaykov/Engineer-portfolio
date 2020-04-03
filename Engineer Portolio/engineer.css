@@ -1,0 +1,61 @@
+@media screen and (max-width: 700px) {
+  .hide-sm {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none !important;
+}
+.w3-top {
+  background-color: white;
+}
+
+.bubble {
+  position: absolute;
+  z-index: -2;
+  color: black !important;
+  background: #ccc !important;
+  transition: all 0.5s ease;
+}
+
+img {
+  height: 220px;
+  border: 1px solid #021a40 !important;
+}
+
+#engineer {
+  margin: 0 auto !important;
+  border-radius: 50%;
+  height: 330px;
+  max-width: 330px;
+  border: none !important;
+}
+.flag {
+  height: 20px;
+  max-width: 35px;
+}
+
+.hvr-grow-shadow {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover,
+.hvr-grow-shadow:focus,
+.hvr-grow-shadow:active {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
