@@ -1,5 +1,5 @@
 # Engineer-portfolio
 
-![KOSIKO](./Engineer Portfolio/images/project-images/kosiko.png)
-![Objects](./Engineer Portfolio/images/project-images/objects.png)
-![Contact](./Engineer Portfolio/images/project-images/contact.png)
+![KOSIKO](./Engineer Portofolio/images/project-images/kosiko.png)
+![Objects](./Engineer Portofolio/images/project-images/objects.png)
+![Contact](./Engineer Portofolio/images/project-images/contact.png)
